@@ -1,0 +1,88 @@
+.side-navbar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #f0f0f0; /* Light grey background */
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items to the center horizontally */
+}
+.color {
+  color: #fff;
+}
+.center_ul {
+  padding-right: 40px;
+}
+.nav-item {
+  list-style-type: none;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  color: #87ceeb; /* Sky blue color */
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+.active-cont {
+  margin-left: 250px;
+}
+
+#menu-btn {
+  background-color: #100901;
+  color: #fff;
+  margin-left: -62px;
+}
+
+.my-container input[type="file"] {
+  display: none; /* Hide the file input */
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-outline-light {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+.nav-item {
+  list-style-type: none;
+  border-radius: 5px;
+}
+
+.nav-link.btn {
+  background-color: #87ceeb; /* Sky blue background */
+  color: #fff; /* White text */
+  border-color: #87ceeb; /* Sky blue border */
+  font-size: 16px; /* Increase font size */
+  padding: 15px 30px; /* Increase padding inside the button */
+  margin-bottom: 10px; /* Increase margin between buttons */
+  width: 100%; /* Make both buttons span the full width of their parent container */
+}
+
+.nav-link.btn:hover {
+  background-color: #007bff; /* Darker blue background on hover */
+  border-color: #007bff; /* Darker blue border on hover */
+}
